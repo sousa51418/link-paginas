@@ -1,0 +1,49 @@
+body {
+    font-family: "Cookie", cursive;
+
+    font-size: 30px;
+}
+
+
+.carta {
+    border: 1px solid rgb(47, 32, 1);
+    height: 500px;
+    width: 550px;
+    margin: 150px auto;
+    padding: 30px;
+    background-color: #fecdeac6;
+    box-shadow: 10px 15px 20px #0000004e;
+    /*Primeiro valor vai deslocar para direta (+) ou esquerda (-), 2° vai deslocar para cima (-) ou para baixo (+) e 3° é o desfoque*/
+    border-radius: 30px;
+
+}
+
+.data {
+    margin: 20px;
+    text-align: right;
+}
+
+.pagination {
+    display: inline-block;
+  }
+  
+  .pagination-container {
+    text-align: center; 
+    margin-top: 20px; 
+  }
+  
+  .pagination a {
+    color: #000000;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    border: 1px solid #000000;
+    margin: 0 4px;
+    border-radius: 4px;
+  }
+  
+  .pagination a:hover {
+    background-color: #797777;
+  }
+  
